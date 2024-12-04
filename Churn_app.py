@@ -11,7 +11,7 @@ model = pickle.load(open('Churn_Predictor.pkl', 'rb'))
 scaler = StandardScaler()
 
 # App title
-st.title("Customer Churn Prediction")
+st.title("Customer Churn Prediction using Logistic Regression")
 
 # User inputs
 st.header("Enter Customer Details")
